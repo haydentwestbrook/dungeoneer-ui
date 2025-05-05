@@ -1,0 +1,36 @@
+{
+  "name": "dungeoneer-ui",
+  "version": "1.0.0",
+  "description": "A simple note taking app.",
+  "type": "module",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "test",
+    "clean": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haydentwestbrook/dungeoneer.git"
+  },
+  "author": "Hayden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haydentwestbrook/dungeoneer/issues"
+  },
+  "homepage": "https://github.com/haydentwestbrook/dungeoneer#readme",
+  "dependencies": {
+    "parcel": "~2.13.3",
+    "react": "~19.0.0",
+    "react-dom": "~19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10",
+    "typescript": "~5.8.2",
+    "@types/react": "~19.0.10",
+    "@types/react-dom": "~19.0.4"
+  }
+}
