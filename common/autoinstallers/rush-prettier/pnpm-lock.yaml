@@ -22,8 +22,8 @@ packages:
       path-exists: 4.0.0
     dev: false
 
-  /ignore@7.0.3:
-    resolution: {integrity: sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==}
+  /ignore@7.0.4:
+    resolution: {integrity: sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==}
     engines: {node: '>= 4'}
     dev: false
 
@@ -81,7 +81,7 @@ packages:
       prettier: ^3.0.0
     dependencies:
       find-up: 5.0.0
-      ignore: 7.0.3
+      ignore: 7.0.4
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.2
