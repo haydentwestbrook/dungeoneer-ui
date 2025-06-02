@@ -4,9 +4,6 @@
   "description": "A simple note taking app.",
   "type": "module",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "src/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "start": "parcel src/index.html",
     "test": "test",
