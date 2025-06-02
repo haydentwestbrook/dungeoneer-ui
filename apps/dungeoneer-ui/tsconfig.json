@@ -4,6 +4,10 @@
   "compilerOptions": {
     "jsx": "react",
     "experimentalDecorators": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
