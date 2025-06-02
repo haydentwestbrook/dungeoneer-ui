@@ -331,8 +331,8 @@
    */
   "projects": [
     {
-      "packageName": "dungeoneer-ui",
-      "projectFolder": "apps/dungeoneer-ui"
+      "packageName": "dungeoneer-ui-core",
+      "projectFolder": "apps/dungeoneer-ui-core"
     }
     // {
     //   /**

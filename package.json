@@ -2,10 +2,10 @@
   "name": "dungeoneer-ui",
   "version": "1.0.0",
   "description": "A toolset for dungeon masters to create and manage tabletop RPG campaigns.",
-  "main": "node apps/dungeoneer-ui/src/index.js",
+  "main": "node apps/dungeoneer-ui-core/src/index.js",
   "scripts": {
-    "start": "npm parcel apps/dungeoneer-ui/src/index.html",
-    "dev": "parcel apps/dungeoneer-ui/src/index.html",
+    "start": "npm parcel apps/dungeoneer-ui-core/src/index.html",
+    "dev": "parcel apps/dungeoneer-ui-core/src/index.html",
     "test": "test",
     "deploy": "git push heroku main",
     "clean": "prettier . --write"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/haydentwestbrook/dungeoneer/issues"
   },
-  "homepage": "https://github.com/haydentwestbrook/dungeoneer#readme"
+  "homepage": "https://github.com/haydentwestbrook/dungeoneer#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
 }
