@@ -1,11 +1,10 @@
 {
   "name": "dungeoneer-ui-core",
   "version": "1.0.0",
-  "description": "A simple note taking app.",
+  "description": "Core functionality for dungeoneer-ui.",
   "type": "module",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel src/index.html",
     "test": "test",
     "clean": "prettier . --write"
   },

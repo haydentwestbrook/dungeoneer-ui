@@ -4,7 +4,7 @@
   "description": "A toolset for dungeon masters to create and manage tabletop RPG campaigns.",
   "main": "node apps/dungeoneer-ui-core/src/index.js",
   "scripts": {
-    "start": "parcel apps/dungeoneer-ui-core/src/index.html",
+    "start": "parcel watch apps/dungeoneer-ui-core/src/index.html",
     "build": "parcel build apps/dungeoneer-ui-core/src/index.html",
     "test": "test",
     "deploy": "git push heroku main",
